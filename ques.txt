@@ -1,0 +1,30 @@
+Q1. Please do the below assignment and submit the GitHub link containing the code and a 1-2 minute 
+Loom video link of you talking about you and the assignment. 
+Talk about your thought process while doing the assignment, how you went about it, 
+why did you do the coding in a certain way and what can be improved. 
+The expected time to code is 4-6 hours.
+
+Assignment: Implement a REST API in Python/Flask which will take a given PDF file, angle of rotation, page number. 
+The API should rotate the specified page in the given angle and replace that page back into the PDF. 
+The PDF file can be an image PDF or true PDF (meaning it can be any type of PDF). 
+You can use either a GET or POST, up to you to decide - you can briefly talk about the reasoning. 
+The number of pages in the PDF will remain the same after this process.
+
+API inputs:
+    file_path :
+    angle_of_rotation: Multiple of 90 degrees (90/180/270)
+    page_number: 1 to n (n is the number of pages in the pdf file)
+
+API Output:
+    PDF file path with rotated pages.
+
+Only the specified page mentioned in the input should be rotated, the rest of the pages stays the same. 
+Sample inputs you will have to use and submit the output:
+file_path: /tmp/test.pdf
+angle_of_rotation: 90
+page_number: 3
+
+Things to submit:
+1. GitHub link containing the code
+2. 1-2 minute Loom video link of you talking about you and the assignment
+3. Converted PDF link (upload to any cloud drive and provide the link)
